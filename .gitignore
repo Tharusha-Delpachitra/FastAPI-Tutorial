@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Log files
+*.log
+logs/
+
+# Python environment files
+*.env
+*.venv
+*.envrc
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore testing and coverage results
+.coverage
+htmlcov/
+*.pytest_cache/
+*.mypy_cache/
+
+# Ignore build and deployment directories
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
